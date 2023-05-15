@@ -118,12 +118,12 @@ const App = () => {
             <br />
             <label>
               Le descriptif du poste:
-              <input type="text" name="position" value={formData.position} onChange={handleChange} />
+              <input type="text" name="position" placeholder='copier coller le descriptif du poste' value={formData.position} onChange={handleChange} />
             </label>
             <br />
             <label>
               Tes skills (atouts):
-              <textarea name="skills" placeholder='Outline relevant skills' value={formData.skills} onChange={handleChange} />
+              <textarea name="skills" placeholder='Décrire vos compétences pertinentes pour ce poste' value={formData.skills} onChange={handleChange} />
             </label>
             <br />
             <label>
