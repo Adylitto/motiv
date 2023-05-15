@@ -5,6 +5,7 @@ import Button from '../components/Button';
 import Loader from '../components/Loader';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Image from 'next/image';
 
 
 
@@ -136,8 +137,11 @@ const App = () => {
               {isLoading && <Loader />}
             </div>
           </form>
-          <a href="https://www.buymeacoffee.com/adyl" target="_blank">
-                    <img src="https://img.buymeacoffee.com/button-api/?text=M'offrir un Kawa!😉&emoji=&slug=adyl&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" />
+          <a href="https://www.buymeacoffee.com/adyl" target="_blank" rel="noreferrer">
+                    <img src="https://img.buymeacoffee.com/button-api/?text=M'offrir-un-Kawa!😉&emoji=&slug=adyl&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" 
+                    alt="M'offrir un kawa"
+                    width={400}
+                    height={300}/>
                 </a>
           <div className={styles.bottom}>
             {error ? errorToast() && <div style={{display: "none"}}></div> : result && 

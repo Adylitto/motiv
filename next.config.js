@@ -9,6 +9,11 @@ const nextConfig = {
         port: '',
         pathname: '/dmCq7TH/MotiV.png/**',
       },
+      {
+        protocol:'https',
+        hostname:'img.buymeacoffee.com',
+        port:'',
+      },
     ],
   },
 }
