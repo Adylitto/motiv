@@ -136,6 +136,9 @@ const App = () => {
               {isLoading && <Loader />}
             </div>
           </form>
+          <a href="https://www.buymeacoffee.com/adyl" target="_blank">
+                    <img src="https://img.buymeacoffee.com/button-api/?text=M'offrir un Kawa!😉&emoji=&slug=adyl&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" />
+                </a>
           <div className={styles.bottom}>
             {error ? errorToast() && <div style={{display: "none"}}></div> : result && 
             <div className={styles.result} ref={ref} key={"prompt"}>
@@ -143,6 +146,7 @@ const App = () => {
               {result}
             </div>}
           </div>
+          
         </div>
       </div>
     </>
