@@ -2,21 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'i.ibb.co',
-        port: '',
-        pathname: '/dmCq7TH/MotiV.png/**',
-      },
-      {
-        protocol:'https',
-        hostname:'img.buymeacoffee.com',
-        port:'',
-      },
-    ],
+    domains: ['i.ibb.co', 'img.buymeacoffee.com'],
   },
-}
+};
 
-
-module.exports = nextConfig
+module.exports = nextConfig;
