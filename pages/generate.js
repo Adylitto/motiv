@@ -107,7 +107,7 @@ const App = () => {
           </div>
           <form className={styles.form} onSubmit={handleSubmit}>
             <label>
-              Nom du recruteur:
+              Nom de la société:
               <input type="text" name="company" value={formData.company} onChange={handleChange} />
             </label>
             <br />
@@ -127,7 +127,7 @@ const App = () => {
             </label>
             <br />
             <label>
-              Ton Experience:
+              Tes années d Experience:
               <input type="number" name="experience" value={formData.experience} onChange={handleChange} />
             </label>
             <br />

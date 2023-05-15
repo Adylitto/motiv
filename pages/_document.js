@@ -15,7 +15,7 @@ export default function Document() {
         <meta property="og:site_name" content="https://https://motive-adylitto.vercel.app/" />
         <meta
           property="og:description"
-          content="Generate your next Cover letter in seconds."
+          content="Génères ta lettre de Motiv en 10 secondes chrono!"
         />
       </Head>
       <body>

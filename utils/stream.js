@@ -12,11 +12,10 @@ export async function OpenAIStream(payload) {
     const { company, experience, skills, name, position } = payload.formData;
 
 
-    const prompt = `Je suis un rédacteur de lettres de motivation et j'ai besoin de votre aide pour rédiger une parfaite
-    lettre de motivation pour un demandeur d'emploi nommé ${name}. Il ou elle postule pour travailler chez ${company} en tant que ${position}, et il
-    a ${experience} années d'expérience et les compétences suivantes : ${skills}.
-    Pouvez-vous s'il vous plaît écrire une lettre de motivation qui met en évidence son expérience et ses compétences pertinentes,
-    et explique pourquoi ils conviennent parfaitement au poste? Rendez-le engageant et persuasif,
+    const prompt = `Je suis demandeur d'emploi nommé ${name} et j'ai besoin de votre aide pour rédiger une parfaite
+    lettre de motivation. je postule pour travailler chez ${company} en tant que ${position}, et possède ${experience} années d'expérience et les compétences suivantes : ${skills}.
+    Pouvez-vous s'il vous plaît m'aider à écrire une lettre de motivation parfaite qui met en évidence mon expérience et mes compétences pertinentes,
+    et expliquer pourquoi ils conviennent parfaitement au poste? Rendez-le engageant et persuasif,
     mais restez professionnel. Merci!`
 
     const config = {
