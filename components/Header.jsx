@@ -19,7 +19,7 @@ const Header = () => {
                         className={styles.img}
                     />
                 </Link>
-                <GitHubButton href="https://github.com/Adylitto/motiv" data-size="large" aria-label="StarAdylitto/motiv on GitHub">Star</GitHubButton>
+                <GitHubButton href="https://github.com/Adylitto/motiv" data-size="large" aria-label="Star Adylitto/motiv on GitHub">Star</GitHubButton>
             </div>
         </>
     )
