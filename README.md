@@ -8,7 +8,7 @@ Getting Started
 
 1.  Clone the repository
 
-    `git clone https://github.com/orlando70/cover-letter-generator.git`
+    `git clone https://github.com/`
 
 1.  Install the dependencies
 

@@ -3,7 +3,7 @@ import styles from '../styles/TopSection.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import GitHubButton from 'react-github-btn'
-import logo from "../public/motiv.png"
+import logo from "/public/motiv.png"
 
 
 const Header = () => {
