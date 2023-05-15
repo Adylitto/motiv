@@ -19,7 +19,7 @@ const Header = () => {
                         className={styles.img}
                     />
                 </Link>
-                <GitHubButton href="https://github.com/orlando70/cover-letter-generator" data-size="large" aria-label="Star orlando70/cover-letter-generator on GitHub">Star</GitHubButton>
+                <GitHubButton href="https://github.com/Adylitto/motiv" data-size="large" aria-label="StarAdylitto/motiv on GitHub">Star</GitHubButton>
             </div>
         </>
     )
